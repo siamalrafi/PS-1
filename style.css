@@ -1,0 +1,196 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Gentium Book Plus', serif;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+    color: white;
+}
+
+.topnav a {
+    float: left;
+    display: block;
+    font-size: 25px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.topnav a:hover {
+    color: rgb(233, 44, 44);
+}
+
+.topnav a.active {
+    background-color: green;
+    color: white;
+}
+
+.topnav .search-container {
+    float: right;
+}
+
+.topnav input[type=text] {
+    padding: 6px;
+    margin-top: 8px;
+    font-size: 17px;
+    border: none;
+}
+
+.topnav .search-container button {
+    float: right;
+    padding: 6px 10px;
+    margin-top: 8px;
+    margin-right: 16px;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+}
+
+.topnav .search-container button:hover {
+    background-color: red;
+}
+
+@media screen and (max-width: 600px) {
+    .topnav .search-container {
+        float: none;
+    }
+
+    .topnav a,
+    .topnav input[type=text],
+    .topnav .search-container button {
+        float: none;
+        display: block;
+        text-align: left;
+        width: 100%;
+        margin: 0;
+        padding: 14px;
+    }
+
+    .topnav input[type=text] {
+        border: 1px solid #ccc;
+    }
+}
+
+.Present {
+    background-color: black;
+    width: 100%;
+    color: white;
+
+}
+
+.Present {
+    width: 100%;
+    justify-content: center;
+    background-color: rgb(32, 19, 19);
+    color: white;
+    text-align: center;
+}
+
+.present-content {}
+
+.title-content {
+    padding-top: 130px;
+}
+
+.title-contenth1 {
+    padding-top: 60px;
+    padding-top: 10px;
+    font-size: 80px;
+    font-weight: 900;
+
+}
+
+.present-content p {
+    padding-top: 20px;
+    font-weight: 900;
+    margin-left: 250px;
+    margin-right: 250px;
+}
+
+.all-present-content button {
+    padding: 15px 40px;
+    margin: 15px;
+    margin-bottom: 100px;
+}
+
+.left {
+    background-color: rgb(27, 27, 231);
+    color: white;
+    border: 1px solid white;
+    border-radius: 8px;
+
+}
+
+.right {
+    background-color: rgb(32, 19, 19);
+    color: white;
+    border: 1px solid white;
+    border-radius: 8px;
+
+}
+
+.left:hover {
+    background-color: rgb(71, 71, 223);
+}
+
+.right:hover {
+    background-color: white;
+    color: black;
+}
+
+/* future style */
+.future {
+    width: 100%;
+}
+
+.pay {
+    background-color: goldenrod;
+}
+
+.pay-content {
+    text-align: center;
+    padding-top: 50px;
+}
+
+.pay-content h1 {
+    font-size: 45px;
+}
+
+.pay-content p {
+    padding-top: 10px;
+    font-size: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer {
+    background-color: black;
+}
